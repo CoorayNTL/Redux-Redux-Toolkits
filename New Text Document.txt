@@ -1,0 +1,12 @@
+Redux Toolkit RoadMap ./
+
+
+
+1)......
+Redux
+
+2)......
+Redux Toolkit
+
+3)......
+React Redux
