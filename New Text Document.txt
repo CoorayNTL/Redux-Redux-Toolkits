@@ -10,3 +10,29 @@ Redux Toolkit
 
 3)......
 React Redux
+
+
+Redux Concerns 
+
+Redux require too much boilerplate code 
+
+  Action
+  Action object 
+  Action createStore
+  switch statement in reducer 
+
+A lot of packages have to be installed to work with redux
+
+  Redux-thunk
+  immer
+  Redux-devtools
+
+Redux Toolkit 
+
+  redux Toolkit is the official, opnionated , batteries-included toolset for efficient redux devlopment
+
+     Abstract over the setup process 
+     handle the most common use cases
+     include some useful utiles
+
+
