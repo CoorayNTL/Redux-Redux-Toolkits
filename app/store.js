@@ -18,7 +18,7 @@ module.exports = store;
     the reducer property is an object with key value pairs
     the key is the name of the reducer
 
-    ---------------------Adintinal Note---------------------------------------------
+    ---------------------Aditional Note---------------------------------------------
     the value is the reducer function
     the configureStore() function returns a store object
     the store object has a dispatch() method
@@ -37,5 +37,3 @@ module.exports = store;
     the store object has a replaceReducer() method
 
 */
-
-
