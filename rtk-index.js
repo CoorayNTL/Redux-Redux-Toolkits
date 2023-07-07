@@ -1,25 +1,14 @@
-const createSlice = require("@reduxjs/toolkit").createSlice;
+const store = require("./app/store.js");
+const msiActions = require("./features/msi/rtk-msiSlice.js").msiActions;
 
-const initialState = {
-    nuOflaps: 10,
-};
-
-const lapSlices = createSlice({
-    name: "lap",
-    initialState,
-    reducers: {
-        ordered: (state) => {
-            state.nuOflaps = state.nuOflaps - 1;
-        },
-        restoked: (state) => {
-            state.nuOflaps += action.playload; // action.playload is the number of laps to restock automatically when the user clicks the restock button
-        },
-    },
+console.log("Initial state: ", store.getState());
+const unsubscribe = store.subscribe(() => {
+    console.log("updated state:", store.getState());
 });
 
-module.exports = lapSlices.reducer;
-module.exports.lapActions = lapSlices.actions; 
+store.dispatch(msiActions.ordered());
+store.dispatch(msiActions.ordered());
+store.dispatch(msiActions.ordered());
+store.dispatch(msiActions.restoked(5));
 
-// lapActions is an object with two properties: ordered and restocked
-// reduce boilerplate code by using createSlice() from @reduxjs/toolkit
-//reduce th aditional libraries by using createSlice() from @reduxjs/toolkit
+unsubscribe();
