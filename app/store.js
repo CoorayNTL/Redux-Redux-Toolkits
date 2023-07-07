@@ -1,6 +1,7 @@
 const configureStore = require("@reduxjs/toolkit").configureStore;
- const msiReducer = require("../features/msi/rtk-msiSlice.js");
+const msiReducer = require("../features/msi/rtk-msiSlice.js");
 const appleReducer = require("../features/apple/appleSlice.js");
+const userReducer = require("../user/userSlice.js");
 // const reduxLogger = require("redux-logger");
 
 // const logger = reduxLogger.createLogger();
@@ -8,6 +9,7 @@ const store = configureStore({
     reducer: {
         msi: msiReducer,
         apple: appleReducer,
+        user: userReducer,
     },
 
     // middleware: (getDefaultMuiddleware) =>
