@@ -21,16 +21,20 @@ It aims to streamline the development experience and reduce the amount of boiler
 
 # Some key features of the Redux Toolkit include:
 
-Simplified Redux setup: Redux Toolkit provides a function called configureStore that sets up a Redux store with sensible defaults. 
+# Simplified Redux setup: 
+Redux Toolkit provides a function called configureStore that sets up a Redux store with sensible defaults. 
 It includes built-in middleware, including redux-thunk, which allows writing async logic, and Redux DevTools Extension integration.
 
-Reduces boilerplate code: Redux Toolkit introduces a concept called "slices" that allows you to define reducers, actions, and selectors in a more concise way. 
+# Reduces boilerplate code: 
+Redux Toolkit introduces a concept called "slices" that allows you to define reducers, actions, and selectors in a more concise way. 
 Slices automatically generate action creators and reducers, reducing the amount of boilerplate code you need to write.
 
-Immutability and Immer integration: Redux Toolkit uses a library called Immer internally, which simplifies writing immutable updates to the state. 
+# Immutability and Immer integration: 
+Redux Toolkit uses a library called Immer internally, which simplifies writing immutable updates to the state. 
 It allows you to write code that appears to be mutating the state directly while generating a new immutable state behind the scenes.
 
-DevTools and performance enhancements: Redux Toolkit includes built-in support for Redux DevTools Extension, making it easier to debug and inspect the state changes. 
+# DevTools and performance enhancements: 
+Redux Toolkit includes built-in support for Redux DevTools Extension, making it easier to debug and inspect the state changes. 
 It also includes optimizations such as memoized selectors to improve the performance of your application.
 
 By using Redux Toolkit, you can write Redux code in a more efficient and productive manner, with fewer lines of code and enhanced debugging capabilities. 
