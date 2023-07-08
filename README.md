@@ -13,13 +13,13 @@ Redux follows a unidirectional data flow, which means that the state changes are
 It makes it easier to understand how the state changes over time and helps debug and reproduce   
 issues.
 
-# Introduction to Redux Toolkit:
+# Introduction to Redux Toolkit
 
 Redux Toolkit is the officially recommended way to write Redux logic.
 It is a package that provides a set of utilities and abstractions that simplify the process of writing Redux code. 
 It aims to streamline the development experience and reduce the amount of boilerplate code required.
 
-# Some key features of the Redux Toolkit include:
+# Some key features of the Redux Toolkit include
 
 # Simplified Redux setup: 
 Redux Toolkit provides a function called configureStore that sets up a Redux store with sensible defaults. 
